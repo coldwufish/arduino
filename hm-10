@@ -39,7 +39,7 @@ void loop(){
     prevMillis = millis();
     while (millis() - prevMillis < READ_TIME) {
       if (bluetooth.available()) {
-        str += (char) bluetooth.read()
+        str += (char) bluetooth.read();
       }
     }
   Serial.println(str);
