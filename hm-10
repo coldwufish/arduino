@@ -5,7 +5,7 @@ unsigned long BAUD_RATE = 9600;
 const int BLUETOOTH_TX = 8;
 const int BLUETOOTH_RX = 7;
 
-conts int READ_TIME = 500;
+const int READ_TIME = 500;
 unsigned long prevMillis;
 
 SoftwareSerial bluetooth(BLUETOOTH_TX, BLUETOOTH_RX);
